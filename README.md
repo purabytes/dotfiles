@@ -33,9 +33,9 @@ Some details about the setup:
 
 # screenshots here
 
-![screenshot1](Assets/screenshot1.gif)
-![screenshot1](Assets/screenshot1.png)
-![screenshot1](Assets/screenshot2.png)
+![screenshot1](Assets/Screenshot1.gif)
+![screenshot1](Assets/Screenshot1.png)
+![screenshot1](Assets/Screenshot2.png)
 
 </details>
 
