@@ -78,7 +78,6 @@ git clone https://github.com/purabytes/dotfiles.git && cd dotfiles && chmod +x i
 
 First, we will need to make sure that we have yay installed:
 
-```
 ```unix
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd .. && sudo rm -r yay-bin
 ```
