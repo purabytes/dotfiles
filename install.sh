@@ -436,7 +436,23 @@ fi
 
     # copy the bspwm dotfiles directory
     cp -R Config/* ~/.config/
-    cp -R Root/* ~/
+    cd Root
+    cp -R .* ~/
+    cd ..
+
+    # chmod +x everything
+    chmod +x ~/.config/betterlockscreen/betterlockscreenrc
+    chmod +x ~/.config/bspwm/bspwmrc
+    chmod +x ~/.config/dunst/dunstrc
+    chmod +x ~/.config/dunst/launchdunst.sh
+    chmod +x ~/.config/lf/lfrc
+    chmod +x ~/.config/polybar/launch.sh
+    chmod +x ~/.config/polybar/scripts/*
+    chmod +x ~/.config/polybar/scripts/weather/*
+    chmod +x ~/.config/sxhkd/sxhkdrc
+
+    # Create user folders
+    xdg-user-dirs-update
 
     # Copy the SDDM theme
     echo -e "$CNT - Setting up the login screen."
